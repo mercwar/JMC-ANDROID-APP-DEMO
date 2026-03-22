@@ -1,8 +1,8 @@
 #!/bin/bash
+# IDENTITY: VERSION 3.8 // FIRE-SITE // CVBGOD
+# ROLE: Dynamic Sitemap Generation with URL Encoding for Version 1 Spaces.
 
 # 1. Get the base GitHub URL from your git config
-# This converts 'git@github.com:user/repo.git' or 'https://github.com/user/repo' 
-# into 'https://github.com/user/repo/blob/main'
 REPO_URL=$(git config --get remote.origin.url | sed 's/\.git$//' | sed 's/git@github.com:/https:\/\/github.com\//')
 BRANCH="main"
 BASE_URL="${REPO_URL}/blob/${BRANCH}"
@@ -16,8 +16,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>' > $OUTPUT_FILE
 echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> $OUTPUT_FILE
 
 # 3. Find all files (including dots)
-# -type f: only files
-# -not -path '*/.git/*': skip the internal git database
+# -type f: only files | -not -path '*/.git/*': skip git database
 find . -type f -not -path '*/.git/*' | while read -r file; do
     # Remove the leading './'
     CLEAN_PATH="${file#./}"
