@@ -1,15 +1,15 @@
-# **MERCWAR FFF Android Demo Application**
-### **COPYWRITE © FFF /RK / DARKCOMM / MERCWAR SYSTEMS — ALL RIGHTS RESERVED**
-
+# FFF Android Demo Application 
+#### JMC Edition BY DEMONIZER THE CVBGOD
 ![jmc](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%204/Copilot_20260322_040208.png)
 
-This repository contains the **Android Native‑C Demo Application** used by the MERCWAR / FFF toolchain for validating runtime pipelines, renderer stability, and Fire‑Gem command integration.  
-This is **NOT** the OS, **NOT** the emulator, and **NOT** the AVIS core — this is the **demo app** that proves your Android native path is alive.
+### COPYWRITE © FFF DARKCOMM / MERCWAR SYSTEMS — ALL RIGHTS RESERVED
+
+This repository contains the Android Native‑C Demo Application used by the MERCWAR / FFF toolchain for validating runtime pipelines, renderer stability, and Fire‑Gem command integration. This is NOT the OS, NOT the emulator, and NOT the AVIS core — this is the demo app that proves your Android native stack is functioning.
 
 ---
 
-# **Overview**
-The MERCWAR Android Demo App is a **minimal, surgical native‑C renderer** designed to validate:
+## Overview
+The MERCWAR Android Demo App is a minimal, surgical native‑C renderer designed to validate:
 
 - Clang compilation  
 - NativeActivity pipeline  
@@ -23,34 +23,32 @@ This demo is intentionally small, explicit, and clone‑friendly so you can drop
 
 ---
 
-# **Features**
-### **Native Renderer**
+## Features
+
+### Native Renderer
 - EGL surface creation  
 - Green background frame  
 - ASCII‑style window border  
 - Pixel‑drawn glyphs (R, K, etc.)  
 - Software EXIT button  
 
-### **Touch Input**
+### Touch Input
 - Java → Native event forwarding  
 - EXIT button hit‑test  
 - Optional AVIS registry post  
 - Clean shutdown callback  
 
-### **Minimal Java Layer**
+### Minimal Java Layer
 - Loads `libindex.so`  
 - Creates GLSurfaceView  
 - Forwards touch events  
 - Calls `nativeOnExit()`  
 
-No permissions.  
-No network.  
-No storage.  
-Pure native.
+No permissions. No network. No storage. Pure native.
 
 ---
 
-# **Project Layout**
+## Project Layout
 ```
 android/
 │
@@ -71,44 +69,25 @@ android/
 
 ---
 
-# **Getting Started (Clone‑Ready)**
+## Getting Started (Clone‑Ready)
 
-### **1. Clone the Repository**
+### 1. Clone the Repository
 ```
 git clone https://github.com/mercwar/fff-android-demo.git
 cd fff-android-demo/android
 ```
 
-*(Replace with your actual repo URL — this is a placeholder.)*
-
----
-
-### **2. Build the Native Demo**
+### 2. Build the Native Demo
 ```
 ./FFF_DARKCOMM2.sh
 ```
 
-This script:
-
-- Compiles native C  
-- Builds the APK  
-- Signs it  
-- Installs it to your emulator/device  
-
----
-
-### **3. Launch the Emulator**
+### 3. Launch the Emulator
 ```
 ./run_android.sh
 ```
 
-Or use Android Studio’s AVD Manager.
-
----
-
-### **4. Install & Run**
-If you want to reinstall manually:
-
+### 4. Install & Run
 ```
 adb install -r build/app.apk
 adb shell am start -n com.demo/.MainActivity
@@ -116,29 +95,30 @@ adb shell am start -n com.demo/.MainActivity
 
 ---
 
-# **Controls**
+## Controls
 - Tap anywhere → no action  
 - Tap EXIT → clean shutdown  
 - Touch events → logged to terminal (if AVIS logging enabled)
 
 ---
 
-# **Troubleshooting**
-### **Black Screen**
+## Troubleshooting
+
+### Black Screen
 - Emulator must support GLES 2.0+  
 - Ensure `libindex.so` exists in correct ABI folder  
 
-### **App Closes Immediately**
+### App Closes Immediately
 - Check `adb logcat`  
 - Verify manifest package name  
 
-### **Touch Not Working**
+### Touch Not Working
 - Ensure Activity forwards `onTouchEvent`  
 - Confirm EXIT button region matches your resolution  
 
 ---
 
-# **Extending the Demo**
+## Extending the Demo
 This demo is the seed for:
 
 - Fire‑Gem command receivers  
@@ -148,13 +128,122 @@ This demo is the seed for:
 - Full AVIS integration  
 - MERCWAR runtime modules  
 
-The renderer is intentionally simple so you can graft new systems onto it without friction.
-
 ---
 
-# **COPYWRITE**
-© **FFF DARKCOMM / MERCWAR SYSTEMS**  
+## COPYWRITE
+© FFF DARKCOMM / MERCWAR SYSTEMS  
 All rights reserved.  
 Internal development artifact — distribution restricted.
 
+
+
+# CYBORG Projects — MERCWAR Edition
+
+### COPYWRITE © FFF DARKCOMM / MERCWAR SYSTEMS — ALL RIGHTS RESERVED
+
+This repository contains the official CYBORG project suite used by MERCWAR / FFF systems to explore, filter, and operate on directory structures, AVIS artifacts, and Fire‑Gem modules. This is the **project explorer**, not the runtime, not the OS, and not the emulator.
+
 ---
+
+## Overview
+CYBORG is a modular, AVIS‑compliant directory scanner and artifact explorer. It reads file trees, filters content by type, size, and extension, and prepares structured inputs for Fire‑Gem, AVIS, and macro‑driven pipelines.
+
+It is designed for:
+- directory scanning  
+- file filtering  
+- AVIS artifact detection  
+- macro input preparation  
+- registry‑driven project loading  
+
+---
+
+## Features
+
+### Directory Scanner
+- Reads root paths recursively  
+- Detects folders, files, and symbolic links  
+- Supports exclusion masks and depth limits  
+
+### Filter Engine
+- Filters by extension: `.c`, `.h`, `.txt`, `.avis`, `.dat`  
+- Filters by size: `> 1MB`, `> 10MB`, `> 100MB`  
+- Filters by type: folders only, files only, mixed  
+
+### Project Explorer UI
+- Displays filtered results in a holographic interface  
+- Highlights AVIS artifacts and macro‑ready files  
+- Allows manual selection and override  
+
+### Registry Integration
+- Posts selected paths to AVIS registry  
+- Supports macro injection and Fire‑Gem boot sequences  
+
+---
+
+## Project Layout
+```
+cyborg/
+│
+├── cyborg.c              # main scanner + filter logic
+├── cyborg_ui.c/.h        # holographic explorer interface
+├── cyborg_registry.c     # AVIS registry integration
+├── cyborg_macro.c        # macro prep + injection
+│
+├── config.ini            # filter rules + UI layout
+├── cyborg_launcher.bat   # Windows launcher
+├── cyborg_scan.sh        # Linux/Mac scan script
+├── README.md             # this file
+└── LICENSE               # MERCWAR license block
+```
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+```
+git clone https://github.com/mercwar/cyborg.git
+cd cyborg
+```
+
+### 2. Configure Filters
+Edit `config.ini` to set:
+- root path  
+- file types  
+- size limits  
+- AVIS mode  
+
+### 3. Launch the Explorer
+```
+./cyborg_scan.sh
+```
+Or on Windows:
+```
+cyborg_launcher.bat
+```
+
+---
+
+## Output
+- Filtered file list  
+- AVIS artifact map  
+- Macro‑ready file queue  
+- Registry post confirmation  
+
+---
+
+## Extending CYBORG
+CYBORG is designed to be extended into:
+- full AVIS project loaders  
+- macro‑driven batch runners  
+- Fire‑Gem input pipelines  
+- multi‑window holographic explorers  
+- remote‑controlled scan agents  
+
+---
+
+## COPYWRITE
+© FFF DARKCOMM / MERCWAR SYSTEMS  
+All rights reserved.  
+Internal development artifact — distribution restricted.
+
