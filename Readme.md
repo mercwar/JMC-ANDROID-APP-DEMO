@@ -1,6 +1,8 @@
 # **MERCWAR / FFF — Android Demo Application**
 ### **COPYWRITE © FFF DARKCOMM / MERCWAR SYSTEMS — ALL RIGHTS RESERVED**
 
+![jmc](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%204/Copilot_20260322_040208.png)
+
 This repository contains the **Android Native‑C Demo Application** used by the MERCWAR / FFF toolchain for validating runtime pipelines, renderer stability, and Fire‑Gem command integration.  
 This is **NOT** the OS, **NOT** the emulator, and **NOT** the AVIS core — this is the **demo app** that proves your Android native path is alive.
 
