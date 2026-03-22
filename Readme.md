@@ -1,5 +1,5 @@
-# **MERCWAR / FFF — Android Demo Application**
-### **COPYWRITE © FFF DARKCOMM / MERCWAR SYSTEMS — ALL RIGHTS RESERVED**
+# **MERCWAR FFF Android Demo Application**
+### **COPYWRITE © FFF /RK / DARKCOMM / MERCWAR SYSTEMS — ALL RIGHTS RESERVED**
 
 ![jmc](https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%204/Copilot_20260322_040208.png)
 
