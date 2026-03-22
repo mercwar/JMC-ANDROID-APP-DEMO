@@ -1,0 +1,21 @@
+[AVIS] COMPILING ARM64 → libindex.so
+C:/Apache24/htdocs/android/index.c:187:5: warning: 'app_dummy' is deprecated: Calls to app_dummy are no longer necessary. See https://github.com/android-ndk/ndk/issues/381. [-Wdeprecated-declarations]
+  187 |     app_dummy();
+      |     ^
+C:/android-ndk-r27d/sources/android/native_app_glue/android_native_app_glue.h:338:5: note: 'app_dummy' has been explicitly marked deprecated here
+  338 |     deprecated("Calls to app_dummy are no longer necessary. See "
+      |     ^
+1 warning generated.
+[AVIS] COMPILING X86_64 → libindex.so
+C:/Apache24/htdocs/android/index.c:187:5: warning: 'app_dummy' is deprecated: Calls to app_dummy are no longer necessary. See https://github.com/android-ndk/ndk/issues/381. [-Wdeprecated-declarations]
+  187 |     app_dummy();
+      |     ^
+C:/android-ndk-r27d/sources/android/native_app_glue/android_native_app_glue.h:338:5: note: 'app_dummy' has been explicitly marked deprecated here
+  338 |     deprecated("Calls to app_dummy are no longer necessary. See "
+      |     ^
+1 warning generated.
+  adding: lib/ (stored 0%)
+  adding: lib/arm64-v8a/ (stored 0%)
+  adding: lib/arm64-v8a/libindex.so (deflated 64%)
+  adding: lib/x86_64/ (stored 0%)
+  adding: lib/x86_64/libindex.so (deflated 66%)

@@ -1,0 +1,51 @@
+AVIS PROJECT SCAN LOG
+Generated: Sat 03/21/2026 20:58:15.45
+Removable Drive: 
+Project Root: \Apache24\htdocs\android
+App Root: 
+
+[DIR] C:\Apache24\htdocs\android\build 
+[DIR] C:\Apache24\htdocs\android\AVIS_PRJ_SCAN\BK 
+[DIR] C:\Apache24\htdocs\android\AVIS_PRJ_SCAN\CFG 
+[DIR] C:\Apache24\htdocs\android\AVIS_PRJ_SCAN\LOG 
+[DIR] C:\Apache24\htdocs\android\AVIS_PRJ_SCAN\midi 
+[DIR] C:\Apache24\htdocs\android\AVIS_PRJ_SCAN\TMP 
+[DIR] C:\Apache24\htdocs\android\AVIS_PRJ_SCAN\CFG\INI 
+[DIR] C:\Apache24\htdocs\android\AVIS_PRJ_SCAN\CFG\JSON 
+[DIR] C:\Apache24\htdocs\android\build\lib 
+[DIR] C:\Apache24\htdocs\android\build\lib\arm64-v8a 
+[DIR] C:\Apache24\htdocs\android\build\lib\x86_64 
+[FILE] C:\Apache24\htdocs\android\avis.c 
+[FILE] C:\Apache24\htdocs\android\avis.h 
+[FILE] C:\Apache24\htdocs\android\AVIS_PRJ_SCAN.BAT 
+[FILE] C:\Apache24\htdocs\android\drawmod.c 
+[FILE] C:\Apache24\htdocs\android\drawmod.h 
+[FILE] C:\Apache24\htdocs\android\FFF_DARKCOMM.bat 
+[FILE] C:\Apache24\htdocs\android\FFF_DARKCOMM.log 
+[FILE] C:\Apache24\htdocs\android\FFF_DARKCOMM.sh 
+[FILE] C:\Apache24\htdocs\android\FFF_DARKCOMM2-bk.sh 
+[FILE] C:\Apache24\htdocs\android\FFF_DARKCOMM2.sh 
+[FILE] C:\Apache24\htdocs\android\FFF_DARKCOMM_ERR.sh 
+[FILE] C:\Apache24\htdocs\android\index.c 
+[FILE] C:\Apache24\htdocs\android\index_arm64 
+[FILE] C:\Apache24\htdocs\android\install_android.bat 
+[FILE] C:\Apache24\htdocs\android\install_android.log 
+[FILE] C:\Apache24\htdocs\android\install_android.sh 
+[FILE] C:\Apache24\htdocs\android\registry.c 
+[FILE] C:\Apache24\htdocs\android\registry.h 
+[FILE] C:\Apache24\htdocs\android\run_android.sh 
+[FILE] C:\Apache24\htdocs\android\run_avdmanager.cmd 
+[FILE] C:\Apache24\htdocs\android\run_sdkmanager.cmd 
+[FILE] C:\Apache24\htdocs\android\ui_mod.c 
+[FILE] C:\Apache24\htdocs\android\ui_mod.h 
+[FILE] C:\Apache24\htdocs\android\ycyborg_reg.h 
+[FILE] C:\Apache24\htdocs\android\yc_log.c 
+[FILE] C:\Apache24\htdocs\android\yc_log.h 
+[FILE] C:\Apache24\htdocs\android\build\aligned.apk 
+[FILE] C:\Apache24\htdocs\android\build\AndroidManifest.xml 
+[FILE] C:\Apache24\htdocs\android\build\app.apk 
+[FILE] C:\Apache24\htdocs\android\build\app.apk.idsig 
+[FILE] C:\Apache24\htdocs\android\build\base.apk 
+[FILE] C:\Apache24\htdocs\android\build\debug.keystore 
+[FILE] C:\Apache24\htdocs\android\build\lib\arm64-v8a\libindex.so 
+[FILE] C:\Apache24\htdocs\android\build\lib\x86_64\libindex.so 

@@ -1,0 +1,25 @@
+;===========================================================
+; AVIS FILE IDENTITY BLOCK
+;===========================================================
+; CY_FILENAME: fire-gem-events.json
+; CY_NAME: FIRE_GEM_EVENTS_JSON
+; CY_TYPE: CONFIG_JSON
+; CY_ROLE: EVENT_MESSAGE_TABLE
+; CY_SUBSYS: FIRE_GEM
+; CY_VERSION: 01.00
+; CY_GUID: {DD44EE55-6677-8899-00AA-BBCC-DDEEFF00}
+; CY_BUILD: MANUAL
+; CY_NOTES: PRINTED MESSAGES FOR ALL FIRE-GEM EVENTS.
+;===========================================================
+
+{
+  "EVENTS": {
+    "ini_detected": "INI files detected. Load now? (Y/N): ",
+    "loading_ini": "Loading Fire-Gem INI commands...",
+    "ready": "Fire-Gem subsystem ready.",
+    "missing_dep": "Missing dependency detected. Install manually.",
+    "command_start": "Executing command: {cmd}",
+    "command_done": "Command completed: {cmd}",
+    "command_error": "Command failed: {cmd}"
+  }
+}
