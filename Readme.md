@@ -130,8 +130,7 @@ This demo is the seed for:
 
 ---
 
-## COPYWRITE
-© FFF DARKCOMM / MERCWAR SYSTEMS  
+## © 2026 MERCWAR FFF DARKCOMM / MERCWAR SYSTEMS / CVBGOD
 All rights reserved.  
 Internal development artifact — distribution restricted.
 
