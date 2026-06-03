@@ -1,7 +1,7 @@
 // --- CONFIG: point this at your repo ---
 const CONFIG = {
   owner: "mercwar",
-  repo: "Nexus",
+  repo: "JMC-ANDROID-APP-DEMO",
   branch: "main"
 };
 
